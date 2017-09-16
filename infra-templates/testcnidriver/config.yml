@@ -1,0 +1,5 @@
+name: Test CNI Driver
+version: dev
+category: Networking
+labels:
+  io.rancher.orchestration.supported: 'cattle,mesos,swarm,kubernetes'

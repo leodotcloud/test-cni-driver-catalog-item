@@ -1,0 +1,9 @@
+.catalog:
+  version: "dev"
+  questions:
+    - variable: "RANCHER_DEBUG"
+      label: "Enable Debug Logs"
+      description: "This will enable very verbose debug logs."
+      type: "boolean"
+      default: "false"
+      required: true
